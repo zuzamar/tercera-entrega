@@ -1,0 +1,1066 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Kotta One", serif;
+}
+
+header {
+  display: flex;
+  background-image: linear-gradient(to bottom, #676714, #807f25, #999937, #b3b348, #cece5a);
+}
+header nav {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: none;
+  align-content: center;
+  justify-items: auto;
+  width: 100%;
+  height: 7rem;
+  margin: 8px 6px 8px 6px;
+}
+header nav ul {
+  display: flex;
+  justify-items: flex-start;
+}
+header nav ul li {
+  list-style: none;
+  text-align: left;
+  padding-right: 1rem;
+}
+header nav ul li a {
+  color: rgb(80, 74, 6);
+  text-decoration: none;
+  text-align: left;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 1.5rem;
+}
+header nav ul li a:hover {
+  font-size: 1.8rem;
+  color: brown;
+}
+header img {
+  justify-self: flex-end;
+  align-self: flex-end;
+  padding-right: 2rem;
+  padding-left: 5rem;
+}
+header .buscador {
+  justify-self: flex-end;
+  align-self: flex-end;
+  padding-right: 2rem;
+}
+header .mi-cuenta {
+  justify-self: flex-end;
+  align-self: flex-end;
+  gap: 0.25rem;
+}
+
+footer {
+  background-image: linear-gradient(to top, #676714, #807f25, #999937, #b3b348, #cece5a);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(80, 74, 6);
+  text-decoration: none;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+footer .direccion {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  width: 100%;
+  height: 8rem;
+  padding: 4px;
+  margin: 4px;
+}
+footer .direccion p {
+  font-size: 1rem;
+}
+footer .tarjetas {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  width: 100%;
+  height: 8rem;
+  gap: 1rem;
+  padding: 4px;
+  margin: 4px;
+}
+footer .redes ul {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 8rem;
+  gap: 2rem;
+  padding: 4px;
+  margin: 4px;
+}
+footer .redes ul li {
+  list-style: none;
+}
+footer .redes ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #c51605;
+}
+
+main .sectionIndexPrincipal {
+  width: 100%;
+  height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  text-align: center;
+  background-color: rgb(240, 240, 160);
+  background-image: url("../assets/img/bebe-pies.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .sectionIndexPrincipal .platero {
+  color: rgb(80, 74, 6);
+  text-align: center;
+  font-family: "Kotta One", serif;
+  font-size: 4rem;
+  padding: 2rem 2rem;
+  animation-name: titulo;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-duration: 4s;
+}
+@keyframes titulo {
+  0% {
+    color: rgb(113, 139, 19);
+    transition: rotate 25deg;
+  }
+  25% {
+    color: rgb(80, 94, 32);
+    transition: rotate 45deg;
+  }
+  50% {
+    color: rgb(113, 139, 19);
+    transition: rotate 90deg;
+  }
+  100% {
+    color: rgb(80, 74, 6);
+    transition: rotate 45deg;
+  }
+}
+main .sectionIndexPrincipal h2 {
+  font-family: "Kotta One", serif;
+  color: rgb(166, 91, 10);
+  text-align: center;
+  font-size: 2.5rem;
+}
+main .sectionIndexSecundaria {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #f0f0a5, #e9e99e, #e2e296, #dbdb8f, #d4d488, #d2d287, #cfcf85, #cdcd84, #cece88, #cfcf8c, #d0d08f, #d1d193);
+  width: 100%;
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+}
+main .sectionIndexSecundaria .video {
+  justify-content: center;
+  background-color: rgb(177, 167, 55);
+  width: 20rem;
+  height: 22rem;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-style: groove;
+  border-color: rgb(166, 91, 10);
+  border-radius: 0.5rem;
+  box-shadow: rgba(141, 115, 31, 0.6431372549);
+  margin: 16px 10px 4px 16px;
+}
+main .sectionIndexSecundaria .video .video2 {
+  justify-self: center;
+  width: 100%;
+  height: 20rem;
+  padding: 10px 20px;
+  padding: 1.25rem;
+  background-size: cover;
+}
+
+.grid1 {
+  width: 100%;
+  height: 86rem;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat 4, 25%;
+  grid-template-areas: "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "ubicacion ubicacion mapa mapa" "logo logo mapa mapa";
+  justify-content: space-between;
+  background-color: #ffe17b;
+}
+.grid1 .kenburns-top {
+  -webkit-animation: kenburns-top 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s reverse forwards;
+  animation: kenburns-top 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s reverse forwards;
+}
+.grid1 .sectionQuienesPrinicpal {
+  grid-area: sectionQuienesPrinicpal;
+  background-image: url("../assets/img/bebe-peludo.jpg");
+  background-repeat: no-repeat;
+  background-position: 40%;
+  height: 37.5rem;
+  background-size: cover;
+}
+.grid1 .sectionQuienesPrinicpal p {
+  color: rgb(80, 74, 6);
+  padding-top: 1rem;
+  margin-left: 0.75rem;
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 37.5rem;
+}
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+}
+.grid1 .ubicacion {
+  display: grid;
+  grid-area: ubicacion;
+  justify-self: flex-start;
+  align-self: center;
+  font-size: 1.875rem;
+  margin-left: 0.75rem;
+  color: rgb(80, 74, 6);
+  text-align: left;
+  font-style: italic;
+  font-weight: 25rem;
+}
+.grid1 .ubicacion p {
+  color: rgb(80, 74, 6);
+  margin-left: 0.75rem;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 37.5rem;
+}
+.grid1 .logo {
+  display: grid;
+  grid-area: logo;
+  justify-self: flex-end;
+  align-self: self-start;
+}
+.grid1 .logo img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1rem;
+}
+.grid1 .mapa {
+  display: grid;
+  grid-area: mapa;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  align-self: center;
+  width: 28rem;
+  height: 24rem;
+  background-color: rgba(207, 167, 33, 0.6431372549);
+  border-width: 4px;
+  border-style: groove;
+  border-color: rgba(80, 74, 6, 0.808);
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+.grid1 .mapa iframe {
+  border-radius: 1rem;
+  justify-self: center;
+  align-self: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.tienda {
+  background-image: linear-gradient(to left bottom, #f0f0a5, #e9e99e, #e2e296, #dbdb8f, #d4d488, #caca7f, #c1c176, #b7b76d, #a8a860, #9a9a53, #8c8c46, #7e7e39);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tienda h1 {
+  color: rgb(80, 74, 6);
+  text-align: center;
+  font-family: "Kotta One", serif;
+  font-size: 4rem;
+  padding: 2rem 2rem;
+}
+.tienda .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  border-width: 4px;
+}
+.tienda .cards article {
+  height: auto;
+  margin: 1.5625rem 7.25rem;
+  padding: 0.75rem 3rem;
+  border-width: 4px;
+  border-style: groove;
+  border-color: rgba(80, 74, 6, 0.808);
+  border-radius: 1rem;
+  box-shadow: #ffe17b;
+  background-color: rgba(207, 167, 33, 0.6431372549);
+}
+.tienda .cards article img {
+  width: 15.625rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+.tienda .cards article p {
+  font-size: 1.25rem;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.grid {
+  width: 100%;
+  background-image: url("../assets/img/fondos/background-sale.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "h1 h1 h1 h1" "formulario formulario formulario formulario" "h2 h2 h2 h2" "otrasvias otrasvias otrasvias otrasvias";
+  justify-content: center;
+  align-items: center;
+}
+.grid h1 {
+  grid-area: h1;
+  justify-self: center;
+  color: rgb(80, 74, 6);
+  text-align: center;
+  font-family: "Kotta One", serif;
+  font-size: 4rem;
+  padding: 2rem 2rem;
+}
+.grid .formulario {
+  grid-area: formulario;
+  justify-self: baseline;
+}
+.grid .formulario form {
+  background-color: rgb(240, 240, 160);
+}
+.grid .formulario form fieldset {
+  text-decoration: none;
+}
+.grid .formulario form fieldset legend {
+  color: rgb(80, 74, 6);
+  text-decoration: none;
+  text-align: left;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 1.25rem;
+}
+.grid .formulario form fieldset label {
+  color: rgb(80, 74, 6);
+  text-decoration: none;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 1.25rem;
+}
+.grid h2 {
+  grid-area: h2;
+  justify-self: center;
+  color: rgb(166, 91, 10);
+  text-align: center;
+  font-family: "Kotta One", serif;
+  font-size: 4rem;
+  padding: 2rem 2rem;
+}
+.grid .otrasvias {
+  grid-area: otrasvias;
+  display: flex;
+  justify-self: flex-start;
+  align-self: center;
+  padding-left: 0.5rem;
+  gap: 1rem;
+}
+.grid .otrasvias li {
+  list-style: none;
+  align-self: center;
+}
+.grid .otrasvias li a {
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #c51605;
+}
+.grid .otrasvias li img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1rem;
+}
+.grid .otrasvias li p {
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: rgb(166, 91, 10);
+}
+
+main {
+  background-image: url("../assets/img/fondos/background-sale.jpg");
+}
+main .catalogo {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+main .catalogo h1 {
+  color: rgb(80, 74, 6);
+  text-align: center;
+  font-family: "Kotta One", serif;
+  font-size: 4rem;
+  padding: 2rem 2rem;
+}
+main .catalogo .b-catalogo1, main .catalogo button {
+  padding: 0.25rem 2rem 0.25rem 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: rgba(173, 173, 46, 0.753);
+  border: chocolate;
+}
+main .catalogo .b-catalogo1 a, main .catalogo button a {
+  font-family: "Edu SA Beginner", cursive;
+  text-decoration: none;
+  color: #c51605;
+  text-align: center;
+  font-size: 1.5rem;
+}
+main .catalogo .b-catalogo1 a:hover, main .catalogo button a:hover {
+  font-size: 1.8rem;
+  color: rgb(170, 46, 46);
+}
+main .catalogo h2 {
+  color: rgb(166, 91, 10);
+  text-align: center;
+  font-family: "Kotta One", serif;
+  font-size: 4rem;
+  padding: 2rem 2rem;
+}
+main .catalogo button a {
+  font-family: "Edu SA Beginner", cursive;
+  text-decoration: none;
+  color: #c51605;
+  text-align: center;
+  font-size: 1.5rem;
+}
+main .catalogo button a:hover {
+  font-size: 1.8rem;
+  color: rgb(170, 46, 46);
+}
+
+.boton1, .main-sale .grid-sale .boton4, .tienda .cards article .main-sale .grid-sale .boton4, .main-sale .grid-sale .tienda .cards article .boton4, .main-sale .grid-sale .boton3, .tienda .cards article .main-sale .grid-sale .boton3, .main-sale .grid-sale .tienda .cards article .boton3, .main-sale .grid-sale .boton2, .tienda .cards article .main-sale .grid-sale .boton2, .main-sale .grid-sale .tienda .cards article .boton2, main .boton1, .tienda .cards article .boton1 {
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: rgb(240, 240, 160);
+  border: none;
+  justify-self: center;
+  align-self: center;
+}
+.boton1 a, .main-sale .grid-sale .boton4 a, .main-sale .grid-sale .boton3 a, .main-sale .grid-sale .boton2 a, .tienda .cards article .boton1 a {
+  font-family: "Edu SA Beginner", cursive;
+  text-decoration: none;
+  color: #c51605;
+  text-align: center;
+  font-size: 1.25rem;
+}
+.boton1 a:hover, .main-sale .grid-sale .boton4 a:hover, .main-sale .grid-sale .boton3 a:hover, .main-sale .grid-sale .boton2 a:hover, .tienda .cards article .boton1 a:hover {
+  font-size: 1.5rem;
+  color: rgba(172, 12, 12, 0.842);
+}
+
+.main-sale .grid-sale {
+  width: 100%;
+  height: 58rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: none;
+  justify-content: space-around;
+  align-content: space-between;
+  background-image: url("../assets/img/fondos/background-sale.jpg");
+  background-repeat: no-repeat;
+  background-position: 40%;
+  background-size: cover;
+}
+.main-sale .grid-sale .sale {
+  grid-area: sale;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  color: rgb(80, 74, 6);
+  text-align: center;
+  font-family: "Kotta One", serif;
+  font-size: 6rem;
+  padding: 2rem 2rem;
+}
+.main-sale .grid-sale .tracking-out-contract {
+  -webkit-animation: tracking-out-contract 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite alternate-reverse both;
+  animation: tracking-out-contract 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite alternate-reverse both;
+}
+@-webkit-keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+@keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+.main-sale .grid-sale .boton1, .main-sale .grid-sale .boton4, .tienda .cards article .main-sale .grid-sale .boton4, .main-sale .grid-sale .tienda .cards article .boton4, .main-sale .grid-sale .boton3, .tienda .cards article .main-sale .grid-sale .boton3, .main-sale .grid-sale .tienda .cards article .boton3, .main-sale .grid-sale .boton2, .tienda .cards article .main-sale .grid-sale .boton2, .main-sale .grid-sale .tienda .cards article .boton2, .main-sale .grid-sale .tienda .cards article .boton1, .tienda .cards article .main-sale .grid-sale .boton1 {
+  display: grid;
+  grid-area: boton1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-content: space-around;
+  justify-self: center;
+  align-self: center;
+  gap: 1.25rem;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: rgba(173, 173, 46, 0.753);
+  border: chocolate;
+}
+.main-sale .grid-sale .boton1 a, .main-sale .grid-sale .boton4 a, .main-sale .grid-sale .boton3 a, .main-sale .grid-sale .boton2 a {
+  font-family: "Edu SA Beginner", cursive;
+  text-decoration: none;
+  color: #c51605;
+  text-align: center;
+  font-size: 4rem;
+}
+.main-sale .grid-sale .boton1 a:hover, .main-sale .grid-sale .boton4 a:hover, .main-sale .grid-sale .boton3 a:hover, .main-sale .grid-sale .boton2 a:hover {
+  font-size: 4.3rem;
+  color: rgb(80, 74, 6);
+}
+.main-sale .grid-sale .boton2 {
+  grid-area: boton2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.main-sale .grid-sale .boton3 {
+  grid-area: boton3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.main-sale .grid-sale .boton4 {
+  grid-area: boton4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+@media (max-width: 1024px) {
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+  }
+  header nav .items ul {
+    justify-self: left;
+    align-self: flex-end;
+    text-align: left;
+  }
+  header nav img {
+    padding-right: 4rem;
+  }
+  header nav .buscador {
+    display: none;
+  }
+  header nav .micuenta {
+    display: none;
+  }
+  .grid1 .sectionQuienesPrincipal div {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-top: 1rem;
+  }
+  footer .direccion {
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+}
+@media (max-width: 768px) {
+  header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+  }
+  header .navbar .items {
+    padding-left: 2rem;
+  }
+  header .navbar .items ul {
+    justify-self: center;
+    align-self: flex-end;
+    text-align: left;
+  }
+  header .navbar .items ul li a {
+    font-size: 1rem;
+  }
+  header .navbar img {
+    padding-right: 2rem;
+  }
+  header .navbar .buscador {
+    display: none;
+  }
+  .sectionIndexPrincipal h1 {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+  }
+  .sectionIndexPrincipal h2 {
+    font-size: 1.25rem;
+  }
+  .grid1 .sectionQuienesPrinicpal p {
+    padding-top: 1rem;
+    margin-left: 0.75rem;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 25rem;
+  }
+  .grid1 .ubicacion p {
+    font-size: 1rem;
+    margin-left: 0.75rem;
+  }
+  .grid1 .logo img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.8rem;
+  }
+  .grid1 .mapa {
+    width: 22rem;
+    height: 20rem;
+  }
+  .grid1 .mapa iframe {
+    width: 20rem;
+    height: 18rem;
+    overflow: hidden;
+  }
+  .grid1 .grid-sale .sale {
+    font-size: 3rem;
+    padding: 0.7rem 0.7rem;
+  }
+  .grid1 .grid-sale .boton1, .grid1 .grid-sale .tienda .cards article .boton1, .tienda .cards article .grid1 .grid-sale .boton1, .grid1 .main-sale .grid-sale .boton2, .main-sale .grid1 .grid-sale .boton2, .grid1 .main-sale .grid-sale .boton3, .main-sale .grid1 .grid-sale .boton3, .grid1 .main-sale .grid-sale .boton4, .main-sale .grid1 .grid-sale .boton4 {
+    gap: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  .grid1 .grid-sale .boton1 a, .grid1 .main-sale .grid-sale .boton2 a, .main-sale .grid1 .grid-sale .boton2 a, .grid1 .main-sale .grid-sale .boton3 a, .main-sale .grid1 .grid-sale .boton3 a, .grid1 .main-sale .grid-sale .boton4 a, .main-sale .grid1 .grid-sale .boton4 a {
+    font-size: 2rem;
+  }
+  .grid1 .grid-sale .boton2 {
+    gap: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  .grid1 .grid-sale .boton2 a {
+    font-size: 2rem;
+  }
+  .grid1 .grid-sale .boton3 {
+    gap: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  .grid1 .grid-sale .boton3 a {
+    font-size: 2rem;
+  }
+  .grid1 .grid-sale .boton4 {
+    gap: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  .grid1 .grid-sale .boton4 a {
+    font-size: 2rem;
+  }
+  .grid .formulario {
+    width: 48rem;
+  }
+  .grid h2 {
+    font-size: 2rem;
+  }
+  .grid .otrasvias li a {
+    font-size: 1rem;
+  }
+  .grid .otrasvias li img {
+    justify-content: center;
+    align-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  footer {
+    width: 100%;
+    height: 25rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+  footer .direccion {
+    width: 7.5rem;
+    height: 6.25rem;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 3rem;
+  }
+  footer .direccion p {
+    font-size: 0.75rem;
+    justify-self: flex-end;
+    align-self: self-start;
+  }
+  footer .tarjetas {
+    display: none;
+  }
+  footer .redes ul {
+    flex-direction: column;
+    align-items: flex-end;
+    align-items: start;
+  }
+  footer .redes ul li {
+    align-items: flex-start;
+    font-size: 0.8rem;
+  }
+  footer .redes ul li img {
+    width: 1.5rem;
+    height: fit-content;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (max-width: 480px) {
+  header .navbar {
+    display: flex;
+    width: 100%;
+    padding-right: 6rem;
+  }
+  header .navbar .items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 7rem;
+    height: 7.5rem;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  header .navbar .items ul {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 6.5rem;
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+  header .navbar .items ul li {
+    padding-right: 0px;
+  }
+  header .navbar img {
+    width: 8rem;
+    height: 7rem;
+    padding-right: 0.25rem;
+    padding-left: 1rem;
+  }
+  header .navbar .mi-cuenta {
+    display: none;
+  }
+  footer {
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .direccion p {
+    display: none;
+  }
+  footer .tarjetas img {
+    display: none;
+  }
+  .grid1 {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-size: cover;
+  }
+  .grid1 .sectionQuienesPrincipal {
+    height: 28rem;
+    background-size: contain;
+  }
+  .grid1 .sectionQuienesSecundaria {
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .grid1 .sectionQuienesSecundaria .ubicacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid1 .sectionQuienesSecundaria .ubicacion p {
+    justify-items: center;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+  }
+  .grid1 .sectionQuienesSecundaria .logo {
+    display: none;
+  }
+  .grid1 .sectionQuienesSecundaria .logo img {
+    display: none;
+  }
+  .grid1 .sectionQuienesSecundaria .mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .grid {
+    width: 100%;
+  }
+  .grid h1 {
+    font-size: 3rem;
+  }
+  .grid .formulario {
+    display: flex;
+  }
+  .grid .formulario form {
+    display: flex;
+  }
+  .grid .formulario form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 18rem;
+    border-radius: 1rem;
+  }
+  .main-sale {
+    display: flex;
+  }
+  .main-sale .grid-sale {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 320px) {
+  header .navbar {
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    align-items: self-start;
+  }
+  header .navbar .items {
+    justify-content: flex-start;
+    align-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    padding-left: 0.25rem;
+    padding-right: 1rem;
+  }
+  header .navbar .items ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding-right: 0%;
+    padding-left: 0%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  header .navbar .items ul li {
+    text-align: center;
+  }
+  header .navbar .items ul li a {
+    font-size: 1rem;
+  }
+  header .navbar img {
+    height: auto;
+    width: auto;
+    padding-right: 1rem;
+  }
+  sectionIndexPrincipal {
+    width: 20rem;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    text-align: center;
+    background-color: rgb(240, 240, 160);
+    background-image: url("../assets/img/bebe-pies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .sectionIndexSecundaria {
+    width: 100%;
+    height: 25rem;
+  }
+  .sectionIndexSecundaria .video {
+    width: 18rem;
+    height: 20rem;
+  }
+  .sectionIndexSecundaria .video .video2 {
+    width: 100%;
+    height: 16rem;
+  }
+  .grid1 .sectionQuienesSecundaria .mapa {
+    width: 18rem;
+    height: 20rem;
+  }
+  .grid1 .sectionQuienesSecundaria .mapa iframe {
+    width: 16rem;
+    height: 18rem;
+    overflow: hidden;
+  }
+  .tienda {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(207, 167, 33, 0.6431372549);
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .tienda .cards {
+    width: 15rem;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+  }
+  .tienda .cards article img {
+    width: 12rem;
+    height: 16rem;
+  }
+  .tienda .cards article p {
+    font-size: 1rem;
+  }
+  .tienda .cards article button a {
+    font-size: 1rem;
+  }
+  .grid {
+    width: 100%;
+  }
+  .grid h1 {
+    font-size: 2.8rem;
+  }
+  .grid .formulario {
+    display: flex;
+  }
+  .grid .formulario form {
+    display: flex;
+  }
+  .grid .formulario form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 16rem;
+    border-radius: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

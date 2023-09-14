@@ -1,0 +1,41 @@
+.tienda{
+    background-image: linear-gradient(to left bottom, #f0f0a5, #e9e99e, #e2e296, #dbdb8f, #d4d488, #caca7f, #c1c176, #b7b76d, #a8a860, #9a9a53, #8c8c46, #7e7e39);
+    @include flex (flex, row, wrap, space-around, center, 0.5rem);
+    h1 {
+        color: $color-h1;
+        text-align: center;
+        font-family:$font-h1;
+        font-size: 4rem;
+        padding: 2rem 2rem;
+    }
+    .cards {
+        @include flex (flex, row, wrap, space-around, center, 0.5rem);
+        text-align: center;
+        border-width: 4px;
+        article{
+            height: auto;
+            margin: 1.5625rem 7.25rem;
+            padding: 0.75rem 3rem;
+            border-width: 4px;
+            border-style: groove;
+            border-color: rgba(80, 74, 6, 0.808);
+            border-radius: 1rem;
+            box-shadow: #ffe17b;
+            background-color: #cfa721a4;
+            img{
+                width: 15.625rem;
+                height: 15rem;
+                border-radius: 1rem;
+            }
+            p {
+                font-size: 1.25rem;
+                justify-self: center;
+                align-self: center;
+                text-align: center;
+            }
+            .boton1{
+                @extend .boton1
+            }
+        }
+    }
+}

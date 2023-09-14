@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    background-image: linear-gradient(to bottom, #676714, #807f25, #999937, #b3b348, #cece5a);
+    nav{
+        @include flex (flex, none, none, space-around, flex-end, none);
+        align-content: center;
+        justify-items: auto;
+        width: 100%;
+        height: 7rem;
+        margin: 8px 6px 8px 6px;
+        ul{
+            display: flex;
+            justify-items: flex-start;
+            li{list-style: none;
+                text-align: left;
+                padding-right: 1rem;
+                a{
+                    color: $navbar-a-color;
+                    text-decoration: none;
+                    text-align: left;
+                    font-family: $font-a;
+                    font-size: 1.5rem;
+                    &:hover{
+                        font-size: 1.8rem;
+                        color:brown;
+                    }
+                }
+            }
+        }
+    }
+    img{
+        justify-self: flex-end;
+        align-self: flex-end;
+        padding-right: 2rem;
+        padding-left: 5rem;
+    }
+    .buscador{
+        justify-self: flex-end;
+    align-self: flex-end;
+    padding-right: 2rem;
+    }
+    .mi-cuenta{
+        justify-self: flex-end;
+        align-self: flex-end;
+        gap: 0.25rem;
+    }
+}

@@ -1,0 +1,79 @@
+.grid{
+    width: 100%;
+    background-image: url("../assets/img/fondos/background-sale.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include grid (grid, repeat( 4, 25%), repeat(4, 1fr), "h1 h1 h1 h1" "formulario formulario formulario formulario" "h2 h2 h2 h2" "otrasvias otrasvias otrasvias otrasvias");
+    justify-content: center;
+    align-items: center;
+
+
+    h1{
+        grid-area: h1;
+        justify-self: center;
+        color:$color-h1;
+        text-align: center;
+        font-family: $font-h1;
+        font-size: 4rem;
+        padding: 2rem 2rem;
+    }
+    .formulario{
+        grid-area: formulario;
+        justify-self:baseline;
+        form{
+            background-color: rgb(240, 240, 160);
+            fieldset{
+                text-decoration: none;
+                legend{
+                    color: rgb(80, 74, 6);
+                    text-decoration: none;
+                    text-align: left;
+                    font-family: "Edu SA Beginner", cursive;
+                    font-size: 1.25rem;
+                }
+                label{
+                    color: rgb(80, 74, 6);
+                    text-decoration: none;
+                    font-family: "Edu SA Beginner", cursive;
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    h2{
+        grid-area: h2;
+        justify-self: center;
+        color:$color-h2;
+        text-align: center;
+        font-family: $font-h2;
+        font-size: 4rem;
+        padding: 2rem 2rem; 
+    }
+    .otrasvias{
+        grid-area: otrasvias;
+        display: flex;
+        justify-self: flex-start;
+        align-self: center;
+        padding-left: .5rem;
+        gap: 1rem;
+        li{
+            list-style: none;
+            align-self: center;
+            a{font-family: $font-a;
+                font-size: 1.25rem;
+                text-decoration: none;
+                color: #c51605;
+            }
+            img{
+                width:8rem;
+                height: 8rem;
+                border-radius: 1rem; 
+            }
+            p{font-family: "Edu SA Beginner", cursive;
+                font-size: 1.25rem;
+                text-decoration: none;
+                color: rgb(166, 91, 10);
+            }
+        }
+    }
+}

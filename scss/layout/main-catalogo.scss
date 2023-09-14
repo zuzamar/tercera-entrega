@@ -1,0 +1,59 @@
+main{
+    background-image: url("../assets/img/fondos/background-sale.jpg");
+    .catalogo{
+        width: 100%;
+        height: 50rem;
+        @include flex (flex, column, none, center, center, 6rem);
+        text-align: center;
+        padding-top: 6rem;
+        padding-bottom: 10rem;
+
+        
+        h1{
+            color: $color-h1;
+            text-align: center;
+            font-family:$font-h1;
+            font-size: 4rem;
+            padding: 2rem 2rem;
+        }
+        .b-catalogo1{
+            padding: .25rem 2rem .25rem 2rem;
+            text-align: center;
+            border-radius: 1rem;
+            background-color: rgba(173, 173, 46, 0.753);
+            border: chocolate;
+            a {
+                font-family: $font-a;
+                text-decoration: none;
+                color: #c51605;
+                text-align: center;
+                font-size: 1.5rem;
+                &:hover{
+                    font-size: 1.8rem;
+                    color:rgb(170, 46, 46);
+                }
+            }
+        }
+        h2{
+            color:$color-h2;
+            text-align: center;
+            font-family: $font-h2;
+            font-size: 4rem;
+            padding: 2rem 2rem; 
+        }
+        button{
+            @extend .b-catalogo1;            
+            a {
+                font-family: $font-a;
+                text-decoration: none;
+                color: #c51605;
+                text-align: center;
+                font-size: 1.5rem;
+                &:hover{
+                    font-size: 1.8rem;
+                    color:rgb(170, 46, 46);
+                }
+            }
+        }
+    }
+}    
