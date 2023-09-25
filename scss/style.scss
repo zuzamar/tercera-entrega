@@ -1,20 +1,20 @@
 @import "./utilities/_variables.scss";
-@import "./utilities/mixins";
+@import "./utilities/_mixins";
 @import "./base/_reset.scss";
-@import "./base/typo.scss";
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
-@import "./layout/main-index.scss";
-@import "./layout/main-quienes.scss";
-@import "./layout/main-tienda.scss";
-@import "./layout/main-contacto.scss";
-@import "./layout/main-catalogo.scss";
-@import "./components/botones.scss";
-@import "./layout/main-sale.scss";
-@import "./layout/media/mq-1024.scss";
-@import "./layout/media/mq-768.scss";
-@import "./layout/media/mq-480.scss";
-@import "./layout/media/mq-320.scss";
+@import "./base/_typo.scss";
+@import "./layout/_header.scss";
+@import "./layout/_footer.scss";
+@import "./layout/_main-index.scss";
+@import "./layout/_main-quienes.scss";
+@import "./layout/_main-tienda.scss";
+@import "./layout/_main-contacto.scss";
+@import "./layout/_main-catalogo.scss";
+@import "./layout/_main-sale.scss";
+@import "./components/_botones.scss";
+@import "./layout/media/_media-1024.scss";
+@import "./layout/media/_media-768.scss";
+@import "./layout/media/_media-480.scss";
+@import "./layout/media/_media-320.scss";
 
 
 

@@ -1,0 +1,33 @@
+main{
+    background-image: url("../assets/img/fondos/background-sale.jpg");
+    .catalogo{
+        width: 100%;
+        height: 44rem;
+        @include flex (flex, column, none, center, center, 6rem);
+        text-align: center;
+        padding-top: 6rem;
+        padding-bottom: 10rem;
+        h1{
+            color: $color-h1;
+            justify-content: center;
+            text-align: center;
+            font-family:$font-h1;
+            font-size: 4rem;
+            padding-top: 4rem;
+            padding: 2rem 2rem;
+        }
+        .b-catalogo1{
+        @extend .botonP;
+        }
+        h2{
+            color:$color-h2;
+            text-align: center;
+            font-family: $font-h2;
+            font-size: 4rem;
+            padding: 2rem 2rem; 
+        }
+        .b-catalogo2{
+            @extend .botonP;            
+        }
+    }
+}    

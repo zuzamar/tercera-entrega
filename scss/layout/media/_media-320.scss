@@ -36,7 +36,7 @@
             }
         }
     }
-    sectionIndexPrincipal{
+    .sectionIndexPrincipal{
         width: 20rem;
         height: 31.25rem;
         @include flex (flex, column, none, center, center, 6rem);
@@ -101,14 +101,14 @@
                 }
                 button{
                     a{
-                        font-size:1rem;
+                        font-size:0.5rem;
                     }
                 }
             }
         }
     }
     .grid{
-        width: 100%;
+        width: 20rem;
         h1{
             font-size: 2.8rem;
         }
@@ -119,11 +119,20 @@
             fieldset{
                 display: flex;
                 flex-direction: column;
-                width: 20rem;
+                width: 19em;
                 height: 16rem;
                 border-radius: 1rem;
                 }
             }
+        }
+    }
+    .catalogo{
+        width: 100%;
+        height: 40rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        h1{
+            font-size: 1rem;
         }
     }
 }
