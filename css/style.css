@@ -1,5 +1,4 @@
 * {
-  border: 2px solid red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -200,12 +199,12 @@ main .sectionIndexSecundaria .video .video2 {
 
 .grid1 {
   width: 100%;
-  height: 86rem;
+  height: 100rem;
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat 4, 25%;
-  grid-template-areas: "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "ubicacion ubicacion mapa mapa" "logo logo mapa mapa";
-  justify-content: space-between;
+  grid-template-rows: repeat(4, 25%);
+  grid-template-areas: "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "ubicacion logo mapa mapa" "ubicacion logo mapa mapa";
+  justify-content: space-around;
   background-color: #ffe17b;
 }
 .grid1 .kenburns-top {
@@ -213,11 +212,13 @@ main .sectionIndexSecundaria .video .video2 {
   animation: kenburns-top 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s reverse forwards;
 }
 .grid1 .sectionQuienesPrinicpal {
+  display: grid;
   grid-area: sectionQuienesPrinicpal;
   background-image: url("../assets/img/bebe-peludo.jpg");
   background-repeat: no-repeat;
-  background-position: 40%;
-  height: 39rem;
+  background-position: 50%;
+  width: 100%;
+  height: 50rem;
   background-size: cover;
 }
 .grid1 .sectionQuienesPrinicpal p {
@@ -226,7 +227,6 @@ main .sectionIndexSecundaria .video .video2 {
   margin-left: 0.75rem;
   text-align: left;
   font-size: 2.5rem;
-  font-weight: 37.5rem;
 }
 @-webkit-keyframes kenburns-top {
   0% {
@@ -256,32 +256,33 @@ main .sectionIndexSecundaria .video .video2 {
     transform-origin: top;
   }
 }
+.grid1 .sectionQuienesSecundaria {
+  width: 100%;
+  height: 50rem;
+  display: grid;
+}
 .grid1 .ubicacion {
   display: grid;
   grid-area: ubicacion;
-  justify-self: flex-start;
-  align-self: center;
-  font-size: 1.875rem;
-  margin-left: 0.75rem;
-  color: rgb(80, 74, 6);
-  text-align: left;
-  font-style: italic;
-  font-weight: 25rem;
+  justify-content: center;
+  align-items: center;
 }
 .grid1 .ubicacion p {
+  justify-self: center;
+  align-self: center;
+  padding-left: 0.75rem;
+  font-size: 1.875rem;
   color: rgb(80, 74, 6);
-  margin-left: 0.75rem;
-  text-align: left;
-  font-size: 1.5rem;
-  font-weight: 37.5rem;
+  font-style: italic;
 }
 .grid1 .logo {
   display: grid;
   grid-area: logo;
-  justify-self: flex-end;
-  align-self: self-start;
 }
 .grid1 .logo img {
+  display: grid;
+  justify-self: flex-end;
+  align-self: self-start;
   width: 8rem;
   height: 8rem;
   border-radius: 1rem;
@@ -289,25 +290,21 @@ main .sectionIndexSecundaria .video .video2 {
 .grid1 .mapa {
   display: grid;
   grid-area: mapa;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  justify-self: center;
-  align-self: center;
-  width: 28rem;
-  height: 24rem;
+  width: 25rem;
+  height: 22rem;
   background-color: rgba(207, 167, 33, 0.6431372549);
+  background-size: cover;
   border-width: 4px;
   border-style: groove;
   border-color: rgba(80, 74, 6, 0.808);
   border-radius: 1rem;
-  background-size: cover;
-  background-position: center;
-  background-size: cover;
-  background-position: center;
 }
 .grid1 .mapa iframe {
-  border-radius: 1rem;
+  display: grid;
+  width: 23rem;
+  height: 20rem;
+  justify-content: center;
+  align-content: center;
   justify-self: center;
   align-self: center;
   background-size: cover;
@@ -812,7 +809,7 @@ main .catalogo h2 {
     align-content: flex-start;
     align-items: flex-start;
     padding-left: 0.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
   }
   header .navbar .items ul {
     display: flex;
@@ -901,7 +898,7 @@ main .catalogo h2 {
     width: 26rem;
   }
   .catalogo h1 {
-    padding-top: 4rem;
+    padding-top: 2rem;
     height: 12rem;
     justify-content: center;
     align-items: center;
@@ -933,25 +930,24 @@ main .catalogo h2 {
   header .navbar {
     display: flex;
     width: 100%;
-    height: 10rem;
+    height: 12rem;
     align-items: self-start;
   }
   header .navbar .items {
     justify-content: flex-start;
     align-content: flex-start;
     justify-items: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     padding-left: 0.25rem;
     padding-right: 1rem;
-    padding-bottom: 2rem;
   }
   header .navbar .items ul {
     display: flex;
     flex-direction: column;
     height: auto;
     width: auto;
-    padding-right: 0%;
-    padding-left: 0%;
+    padding-right: 0;
+    padding-left: 0;
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -994,11 +990,37 @@ main .catalogo h2 {
     width: 100%;
     height: 16rem;
   }
-  .grid1 .sectionQuienesSecundaria .mapa {
+  .grid1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 80rem;
+    background-position: 50%;
+    padding-top: 0;
+  }
+  .sectionQuienesPrinicpal {
+    display: flex;
+    width: 100%;
+    height: 50rem;
+  }
+  .sectionQuienesPrinicpal p {
+    font-size: 1rem;
+  }
+  .sectionQuienesSecundaria {
+    display: felx;
+    width: 100%;
+    height: 30rem;
+    background-position: 50%;
+  }
+  .sectionQuienesSecundaria .mapa {
     width: 15rem;
     height: 18rem;
   }
-  .grid1 .sectionQuienesSecundaria .mapa iframe {
+  .sectionQuienesSecundaria .mapa iframe {
     width: 14rem;
     height: 16rem;
     overflow: hidden;
@@ -1019,7 +1041,7 @@ main .catalogo h2 {
     font-size: 3rem;
   }
   .tienda .cards {
-    width: 15rem;
+    width: 20rem;
     height: auto;
     justify-content: center;
     align-content: center;
@@ -1066,7 +1088,8 @@ main .catalogo h2 {
   }
   .catalogo {
     width: 100%;
-    height: 40rem;
+    height: 50rem;
+    justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }

@@ -14,7 +14,7 @@
                 align-content: flex-start;
                 align-items:flex-start;
                 padding-left: .5rem;
-                padding-bottom: 1rem;
+                padding-bottom: 0;
                 ul{
                     display: flex; 
                     flex-direction:column;
@@ -108,7 +108,7 @@
     .catalogo{
         width: 26rem;
         h1{
-            padding-top: 4rem;
+            padding-top: 2rem;
             height: 12rem;
             justify-content: center;
             align-items: center;
