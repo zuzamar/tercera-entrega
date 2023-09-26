@@ -32,11 +32,17 @@
                 padding-top: 1rem;
             }
         }
-    }    
+    }   
     footer{
         .direccion{
-            justify-content: space-around;
-            align-items: flex-end;
+            justify-content: flex-start;
+            align-items: center;
+                p{
+            font-size: 0.8rem;
+            }
+        }
+        .oca{
+            height: 6rem;;
         }
     }
 }

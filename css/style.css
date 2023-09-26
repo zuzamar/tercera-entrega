@@ -1,4 +1,5 @@
 * {
+  border: 2px solid red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -76,7 +77,7 @@ footer {
 footer .direccion {
   display: flex;
   justify-content: flex-start;
-  align-items: end;
+  align-items: flex-end;
   width: 100%;
   height: 8rem;
   padding: 4px;
@@ -90,7 +91,7 @@ footer .tarjetas {
   justify-content: flex-start;
   align-items: end;
   width: 100%;
-  height: 8rem;
+  height: 9rem;
   gap: 1rem;
   padding: 4px;
   margin: 4px;
@@ -99,11 +100,7 @@ footer .redes ul {
   display: flex;
   justify-content: center;
   align-items: end;
-  width: 100%;
-  height: 8rem;
-  gap: 2rem;
-  padding: 4px;
-  margin: 4px;
+  gap: 1rem;
 }
 footer .redes ul li {
   list-style: none;
@@ -220,7 +217,7 @@ main .sectionIndexSecundaria .video .video2 {
   background-image: url("../assets/img/bebe-peludo.jpg");
   background-repeat: no-repeat;
   background-position: 40%;
-  height: 37.5rem;
+  height: 39rem;
   background-size: cover;
 }
 .grid1 .sectionQuienesPrinicpal p {
@@ -470,8 +467,6 @@ main .catalogo h1 {
   text-align: center;
   font-family: "Kotta One", serif;
   font-size: 4rem;
-  padding-top: 4rem;
-  padding: 2rem 2rem;
 }
 main .catalogo h2 {
   color: rgb(166, 91, 10);
@@ -585,31 +580,31 @@ main .catalogo h2 {
 .boton1 a, .main-sale .grid-sale .boton1 a, .main-sale .grid-sale .boton2 a, .main-sale .grid-sale .boton3 a, .main-sale .grid-sale .boton4 a {
   font-family: "Edu SA Beginner", cursive;
   text-decoration: none;
-  color: rgb(80, 74, 6);
+  color: rgb(65, 59, 3);
   text-align: center;
   font-size: 4rem;
-  background-color: rgba(173, 173, 46, 0.753);
+  background-color: rgba(194, 194, 60, 0.644);
 }
 .boton1 a:hover, .main-sale .grid-sale .boton1 a:hover, .main-sale .grid-sale .boton2 a:hover, .main-sale .grid-sale .boton3 a:hover, .main-sale .grid-sale .boton4 a:hover {
   font-size: 4.3rem;
   color: #c51605;
 }
 
-.botonP, main .boton1, .tienda .cards article .boton1, main .catalogo .b-catalogo1, main .catalogo .b-catalogo2, main .main-sale .grid-sale .boton1, .main-sale .grid-sale main .boton1, main .main-sale .grid-sale .boton2, .main-sale .grid-sale main .boton2, .tienda .cards article .main-sale .grid-sale .boton2, .main-sale .grid-sale .tienda .cards article .boton2, main .main-sale .grid-sale .boton3, .main-sale .grid-sale main .boton3, .tienda .cards article .main-sale .grid-sale .boton3, .main-sale .grid-sale .tienda .cards article .boton3, main .main-sale .grid-sale .boton4, .main-sale .grid-sale main .boton4, .tienda .cards article .main-sale .grid-sale .boton4, .main-sale .grid-sale .tienda .cards article .boton4 {
+.botonP, main .boton1, .tienda .cards article .botonT, main .catalogo .b-catalogo1, main .catalogo .b-catalogo2, main .main-sale .grid-sale .boton1, .main-sale .grid-sale main .boton1, main .main-sale .grid-sale .boton2, .main-sale .grid-sale main .boton2, main .main-sale .grid-sale .boton3, .main-sale .grid-sale main .boton3, main .main-sale .grid-sale .boton4, .main-sale .grid-sale main .boton4 {
   padding: 0.25rem 2rem 0.25rem 2rem;
   text-align: center;
   border-radius: 1rem;
   background-color: rgba(173, 173, 46, 0.753);
   border: chocolate;
 }
-.botonP a, main .boton1 a, .tienda .cards article .boton1 a, main .catalogo .b-catalogo1 a, main .catalogo .b-catalogo2 a, main .main-sale .grid-sale .boton1 a, .main-sale .grid-sale main .boton1 a, main .main-sale .grid-sale .boton2 a, .main-sale .grid-sale main .boton2 a, .tienda .cards article .main-sale .grid-sale .boton2 a, .main-sale .grid-sale .tienda .cards article .boton2 a, main .main-sale .grid-sale .boton3 a, .main-sale .grid-sale main .boton3 a, .tienda .cards article .main-sale .grid-sale .boton3 a, .main-sale .grid-sale .tienda .cards article .boton3 a, main .main-sale .grid-sale .boton4 a, .main-sale .grid-sale main .boton4 a, .tienda .cards article .main-sale .grid-sale .boton4 a, .main-sale .grid-sale .tienda .cards article .boton4 a {
+.botonP a, main .boton1 a, .tienda .cards article .botonT a, main .catalogo .b-catalogo1 a, main .catalogo .b-catalogo2 a, main .main-sale .grid-sale .boton1 a, .main-sale .grid-sale main .boton1 a, main .main-sale .grid-sale .boton2 a, .main-sale .grid-sale main .boton2 a, main .main-sale .grid-sale .boton3 a, .main-sale .grid-sale main .boton3 a, main .main-sale .grid-sale .boton4 a, .main-sale .grid-sale main .boton4 a {
   font-family: "Edu SA Beginner", cursive;
   text-decoration: none;
   color: rgb(80, 74, 6);
   text-align: center;
   font-size: 2rem;
 }
-.botonP a:hover, main .boton1 a:hover, .tienda .cards article .boton1 a:hover, main .catalogo .b-catalogo1 a:hover, main .catalogo .b-catalogo2 a:hover, main .main-sale .grid-sale .boton1 a:hover, .main-sale .grid-sale main .boton1 a:hover, main .main-sale .grid-sale .boton2 a:hover, .main-sale .grid-sale main .boton2 a:hover, .tienda .cards article .main-sale .grid-sale .boton2 a:hover, .main-sale .grid-sale .tienda .cards article .boton2 a:hover, main .main-sale .grid-sale .boton3 a:hover, .main-sale .grid-sale main .boton3 a:hover, .tienda .cards article .main-sale .grid-sale .boton3 a:hover, .main-sale .grid-sale .tienda .cards article .boton3 a:hover, main .main-sale .grid-sale .boton4 a:hover, .main-sale .grid-sale main .boton4 a:hover, .tienda .cards article .main-sale .grid-sale .boton4 a:hover, .main-sale .grid-sale .tienda .cards article .boton4 a:hover {
+.botonP a:hover, main .boton1 a:hover, .tienda .cards article .botonT a:hover, main .catalogo .b-catalogo1 a:hover, main .catalogo .b-catalogo2 a:hover, main .main-sale .grid-sale .boton1 a:hover, .main-sale .grid-sale main .boton1 a:hover, main .main-sale .grid-sale .boton2 a:hover, .main-sale .grid-sale main .boton2 a:hover, main .main-sale .grid-sale .boton3 a:hover, .main-sale .grid-sale main .boton3 a:hover, main .main-sale .grid-sale .boton4 a:hover, .main-sale .grid-sale main .boton4 a:hover {
   font-size: 2.5rem;
   color: #c51605;
 }
@@ -642,8 +637,14 @@ main .catalogo h2 {
     padding-top: 1rem;
   }
   footer .direccion {
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  footer .direccion p {
+    font-size: 0.8rem;
+  }
+  footer .oca {
+    height: 6rem;
   }
 }
 @media (max-width: 768px) {
@@ -655,18 +656,17 @@ main .catalogo h2 {
     height: auto;
   }
   header .navbar .items {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
   header .navbar .items ul {
-    justify-self: center;
-    align-self: flex-end;
+    justify-self: flex-start;
     text-align: left;
   }
   header .navbar .items ul li a {
     font-size: 1rem;
   }
   header .navbar img {
-    padding-right: 2rem;
+    padding-right: 1rem;
   }
   header .navbar .buscador {
     display: none;
@@ -682,7 +682,7 @@ main .catalogo h2 {
     padding-top: 1rem;
     margin-left: 0.75rem;
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 25rem;
   }
   .grid1 .ubicacion p {
@@ -744,7 +744,7 @@ main .catalogo h2 {
     font-size: 2rem;
   }
   .grid .formulario {
-    width: 48rem;
+    width: 47rem;
   }
   .grid h2 {
     font-size: 2rem;
@@ -765,14 +765,12 @@ main .catalogo h2 {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
   footer .direccion {
-    width: 7.5rem;
-    height: 6.25rem;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
   }
   footer .direccion p {
     font-size: 0.75rem;
@@ -802,13 +800,14 @@ main .catalogo h2 {
   header .navbar {
     display: flex;
     width: 100%;
-    padding-right: 6rem;
+    height: 10rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-right: 4rem;
   }
   header .navbar .items {
     display: flex;
     flex-wrap: wrap;
-    width: 7rem;
-    height: 7.5rem;
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;
@@ -818,8 +817,6 @@ main .catalogo h2 {
   header .navbar .items ul {
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: 6.5rem;
     justify-items: flex-start;
     align-items: flex-start;
   }
@@ -829,8 +826,9 @@ main .catalogo h2 {
   header .navbar img {
     width: 8rem;
     height: 7rem;
-    padding-right: 0.25rem;
-    padding-left: 1rem;
+    justify-content: end;
+    align-items: flex-end;
+    padding-left: 2rem;
   }
   header .navbar .mi-cuenta {
     display: none;
@@ -849,22 +847,24 @@ main .catalogo h2 {
   }
   .grid1 {
     width: 100%;
-    height: 60rem;
+    height: 90rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     background-size: cover;
   }
   .grid1 .sectionQuienesPrincipal {
-    height: 28rem;
+    height: 70rem;
     background-size: contain;
   }
+  .grid1 .sectionQuienesPrincipal p {
+    font-size: 0.5rem;
+  }
   .grid1 .sectionQuienesSecundaria {
-    height: 32rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    gap: 2rem;
   }
   .grid1 .sectionQuienesSecundaria .ubicacion {
     display: flex;
@@ -873,7 +873,6 @@ main .catalogo h2 {
   .grid1 .sectionQuienesSecundaria .ubicacion p {
     justify-items: center;
     align-items: flex-start;
-    padding-bottom: 1rem;
   }
   .grid1 .sectionQuienesSecundaria .logo {
     display: none;
@@ -889,22 +888,36 @@ main .catalogo h2 {
     justify-items: center;
     align-items: center;
   }
+  .cards {
+    width: 29rem;
+  }
   .grid {
     width: 100%;
   }
   .grid h1 {
     font-size: 3rem;
   }
-  .grid .formulario {
+  .catalogo {
+    width: 26rem;
+  }
+  .catalogo h1 {
+    padding-top: 4rem;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+  .formulario {
+    display: flex;
+    width: 29rem;
+  }
+  .formulario form {
     display: flex;
   }
-  .grid .formulario form {
-    display: flex;
-  }
-  .grid .formulario form fieldset {
+  .formulario form fieldset {
     display: flex;
     flex-direction: column;
-    width: 30rem;
+    width: 29rem;
     height: 18rem;
     border-radius: 1rem;
   }
@@ -920,16 +933,17 @@ main .catalogo h2 {
   header .navbar {
     display: flex;
     width: 100%;
-    height: 9rem;
+    height: 10rem;
     align-items: self-start;
   }
   header .navbar .items {
     justify-content: flex-start;
     align-content: flex-start;
-    justify-items: center;
-    align-items: center;
+    justify-items: flex-start;
+    align-items: flex-start;
     padding-left: 0.25rem;
     padding-right: 1rem;
+    padding-bottom: 2rem;
   }
   header .navbar .items ul {
     display: flex;
@@ -942,10 +956,10 @@ main .catalogo h2 {
     align-items: flex-start;
   }
   header .navbar .items ul li {
-    text-align: center;
+    text-align: start;
   }
   header .navbar .items ul li a {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   header .navbar img {
     height: auto;
@@ -981,12 +995,12 @@ main .catalogo h2 {
     height: 16rem;
   }
   .grid1 .sectionQuienesSecundaria .mapa {
-    width: 18rem;
-    height: 20rem;
+    width: 15rem;
+    height: 18rem;
   }
   .grid1 .sectionQuienesSecundaria .mapa iframe {
-    width: 16rem;
-    height: 18rem;
+    width: 14rem;
+    height: 16rem;
     overflow: hidden;
   }
   .tienda {
@@ -999,6 +1013,10 @@ main .catalogo h2 {
     align-content: center;
     justify-items: center;
     align-items: center;
+  }
+  .tienda h1 {
+    width: 19rem;
+    font-size: 3rem;
   }
   .tienda .cards {
     width: 15rem;
@@ -1017,8 +1035,14 @@ main .catalogo h2 {
   .tienda .cards article p {
     font-size: 1rem;
   }
-  .tienda .cards article button a {
-    font-size: 0.5rem;
+  .tienda .cards article .botonT {
+    padding: 0;
+  }
+  .tienda .cards article .botonT a {
+    font-size: 1.5rem;
+  }
+  .tienda .cards article .botonT a:hover {
+    font-size: 2rem;
   }
   .grid {
     width: 20rem;
@@ -1028,6 +1052,7 @@ main .catalogo h2 {
   }
   .grid .formulario {
     display: flex;
+    width: 19.5rem;
   }
   .grid .formulario form {
     display: flex;
