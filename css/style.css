@@ -782,6 +782,8 @@ footer {
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-right: 0;
+  padding-left: 0;
 }
 footer .direccion {
   justify-content: center;
@@ -818,7 +820,7 @@ footer .redes ul li img {
     width: 100%;
     height: 10rem;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
     padding-right: 4rem;
   }
   header .navbar .items {
@@ -854,12 +856,28 @@ footer .redes ul li img {
     height: 20rem;
     justify-content: center;
     align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   footer .direccion p {
     display: none;
   }
   footer .tarjetas img {
     display: none;
+  }
+  main {
+    width: 100%;
+  }
+  main .sectionIndexSecundaria {
+    width: 100%;
+  }
+  main .sectionIndexSecundaria .video {
+    width: 22rem;
+    height: 16rem;
+  }
+  main .sectionIndexSecundaria .video .video2 {
+    width: 100%;
+    height: 16rem;
   }
   .grid1 {
     width: 100%;
@@ -913,14 +931,8 @@ footer .redes ul li img {
   .cards {
     width: 29rem;
   }
-  .grid {
-    width: 100%;
-  }
-  .grid h1 {
-    font-size: 3rem;
-  }
   .catalogo {
-    width: 26rem;
+    width: 100%;
   }
   .catalogo h1 {
     padding-top: 2rem;
@@ -929,17 +941,26 @@ footer .redes ul li img {
     align-items: center;
     font-size: 0.5rem;
   }
-  .formulario {
-    display: flex;
-    width: 29rem;
+  .grid {
+    width: 100%;
   }
-  .formulario form {
-    display: flex;
+  .grid h1 {
+    font-size: 3rem;
   }
-  .formulario form fieldset {
+  .grid .formulario {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid .formulario form {
+    display: flex;
+    width: 100%;
+  }
+  .grid .formulario form fieldset {
     display: flex;
     flex-direction: column;
-    width: 29rem;
+    width: 100%;
     height: 18rem;
     border-radius: 1rem;
   }
@@ -955,8 +976,9 @@ footer .redes ul li img {
   header .navbar {
     display: flex;
     width: 100%;
-    height: 9rem;
+    height: 11rem;
     align-items: self-end;
+    padding-bottom: 1rem;
   }
   header .navbar .items {
     justify-content: flex-start;
@@ -1032,6 +1054,8 @@ footer .redes ul li img {
     width: 100%;
     height: 30rem;
     background-position: 50%;
+    justify-content: center;
+    align-items: center;
   }
   .grid1 .sectionQuienesSecundaria .mapa {
     width: 14rem;
@@ -1109,6 +1133,9 @@ footer .redes ul li img {
     width: 19em;
     height: 16rem;
     border-radius: 1rem;
+  }
+  .grid .otrasvias {
+    gap: 6px;
   }
   .catalogo {
     width: 100%;

@@ -5,7 +5,7 @@
             width:100%;
             height: 10rem;
             justify-content:space-around;
-            align-items:flex-start;
+            align-items:flex-end;
             padding-right: 4rem;
             .items{ 
                 display:flex;
@@ -42,6 +42,8 @@
         height: 20rem;
         justify-content: center;
         align-items: center;
+        padding-right: 0px;
+        padding-left: 0px;
         .direccion{
             p{
                 display: none;
@@ -50,6 +52,20 @@
         .tarjetas{
             img{
                 display: none;
+            }
+        }
+    }
+    main{
+        width:100%;
+    .sectionIndexSecundaria{
+        width:100%;
+        .video{
+            width: 22rem;
+            height: 16rem;
+            .video2{
+                width: 100%;
+                height: 16rem;
+                }
             }
         }
     }
@@ -105,14 +121,8 @@
     .cards{
         width:29rem;
     }
-    .grid{
-        width: 100%;
-        h1{
-            font-size: 3rem;
-        }
-    }
     .catalogo{
-        width: 26rem;
+        width: 100%;
         h1{
             padding-top: 2rem;
             height: 12rem;
@@ -121,20 +131,29 @@
             font-size: 0.5rem ;
         }
     }
+    .grid{
+        width: 100%;
+        h1{
+            font-size: 3rem;
+        }
         .formulario{
             display: flex;
-            width: 29rem;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
             form{
                 display: flex;
+                width:100%;
             fieldset{
                 display: flex;
                 flex-direction: column;
-                width: 29rem;
+                width: 100%;
                 height: 18rem;
                 border-radius: 1rem;
                 }
             }
         }
+    }
     .main-sale{
         display:flex;
         .grid-sale{

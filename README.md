@@ -11,7 +11,7 @@
 Este proyecto es un sitio web que forma parte de la tercera entrega de pruebas para el curso de Desarrollador Web de CoderHouse.
 Se trata de un comercio electrónico, diseñado para una empresa que se dedica a la fabricación y venta de ropa de bebé.
 
-## Tecnologias utulizadas:
+## Tecnologias utilizadas:
 
 Html 5.
 Css
@@ -39,7 +39,7 @@ Consta de un formulario de contacto y enumera las otras vias por las que te pode
 **Sale:**
 Por último en ésta pagina se encuentran todos los artículos rebajados, para seleccionarlos de manera rápida podes hacer click en los diferentes botones que te ofrecen los tipos de descuento.
 
-Los html que se encuentran con sus estilos responsive en las medidas requeridas para web design: 1024px, 768px, 480px y 320px son: quienes somos, catalogo y contactos. El resto de los html faltan pequeños ajustes.
+Los html se encuentran con sus estilos responsive en las medidas requeridas para web design: 1024px, 768px, 480px y 320px.
 En Scss se cumple con los requerimientos de la tercera prueba:
 Nesting
 Partials
