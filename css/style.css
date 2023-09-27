@@ -86,7 +86,7 @@ footer .direccion p {
 }
 footer .tarjetas {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: end;
   width: 100%;
   height: 9rem;
@@ -96,8 +96,9 @@ footer .tarjetas {
 }
 footer .redes ul {
   display: flex;
-  justify-content: center;
-  align-items: end;
+  justify-content: end;
+  align-content: end;
+  align-items: center;
   gap: 1rem;
 }
 footer .redes ul li {
@@ -114,6 +115,7 @@ footer .redes ul li a {
 }
 footer .redes ul li img {
   width: 100%;
+  justify-items: flex-end;
 }
 
 main .sectionIndexPrincipal {
@@ -180,7 +182,7 @@ main .sectionIndexSecundaria {
 main .sectionIndexSecundaria .video {
   justify-content: center;
   background-color: rgb(177, 167, 55);
-  width: 100%;
+  width: 40%;
   height: 22rem;
   box-sizing: border-box;
   border-width: 10px;
@@ -203,9 +205,9 @@ main .sectionIndexSecundaria .video .video2 {
   width: 100%;
   height: 100rem;
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 50%);
-  grid-template-areas: "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "sectionQuienesSecundaria sectionQuienesSecundaria sectionQuienesSecundaria sectionQuienesSecundaria";
+  grid-template-areas: "sectionQuienesPrinicpal sectionQuienesPrinicpal" "sectionQuienesSecundaria sectionQuienesSecundaria";
   justify-content: space-around;
   background-color: #ffe17b;
 }
@@ -279,11 +281,11 @@ main .sectionIndexSecundaria .video .video2 {
 }
 .grid1 .logo {
   display: grid;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .grid1 .logo img {
   display: grid;
-  justify-self: flex-start;
-  align-self: self-end;
   width: 8rem;
   height: 8rem;
   border-radius: 1rem;
