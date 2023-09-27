@@ -103,6 +103,8 @@ footer .redes ul {
 }
 footer .redes ul li {
   list-style: none;
+  justify-items: flex-end;
+  align-items: flex-end;
 }
 footer .redes ul li a {
   display: flex;
@@ -116,6 +118,7 @@ footer .redes ul li a {
 footer .redes ul li img {
   width: 100%;
   justify-items: flex-end;
+  align-items: flex-end;
 }
 
 main .sectionIndexPrincipal {
@@ -676,6 +679,14 @@ main .catalogo h2 {
   .sectionIndexPrincipal h2 {
     font-size: 1.25rem;
   }
+  .grid1 {
+    width: 100%;
+    height: 80rem;
+  }
+  .grid1 .sectionQuienesPrinicpal {
+    width: 100%;
+    height: 40rem;
+  }
   .grid1 .sectionQuienesPrinicpal p {
     padding-top: 1rem;
     margin-left: 0.75rem;
@@ -683,117 +694,124 @@ main .catalogo h2 {
     font-size: 2rem;
     font-weight: 25rem;
   }
-  .grid1 .ubicacion p {
+  .grid1 .sectionQuienesSecundaria {
+    width: 100%;
+    height: 40rem;
+  }
+  .grid1 .sectionQuienesSecundaria .ubicacion p {
     font-size: 1rem;
     margin-left: 0.75rem;
   }
-  .grid1 .logo img {
+  .grid1 .sectionQuienesSecundaria .logo img {
     width: 4rem;
     height: 4rem;
     border-radius: 0.8rem;
   }
-  .grid1 .mapa {
+  .grid1 .sectionQuienesSecundaria .mapa {
     width: 22rem;
     height: 20rem;
   }
-  .grid1 .mapa iframe {
+  .grid1 .sectionQuienesSecundaria .mapa iframe {
     width: 20rem;
     height: 18rem;
     overflow: hidden;
   }
-  .grid1 .grid-sale .sale {
+  .grid-sale .sale {
     font-size: 3rem;
     padding: 0.7rem 0.7rem;
   }
-  .grid1 .grid-sale .boton1, .grid1 .main-sale .grid-sale .boton2, .main-sale .grid1 .grid-sale .boton2, .grid1 .main-sale .grid-sale .boton3, .main-sale .grid1 .grid-sale .boton3, .grid1 .main-sale .grid-sale .boton4, .main-sale .grid1 .grid-sale .boton4 {
+  .grid-sale .boton1, .main-sale .grid-sale .boton1, .main-sale .grid-sale .boton2, .main-sale .grid-sale .boton3, .main-sale .grid-sale .boton4 {
     gap: 0.75rem;
     padding: 1.5rem;
     text-align: center;
     border-radius: 0.5rem;
   }
-  .grid1 .grid-sale .boton1 a, .grid1 .main-sale .grid-sale .boton2 a, .main-sale .grid1 .grid-sale .boton2 a, .grid1 .main-sale .grid-sale .boton3 a, .main-sale .grid1 .grid-sale .boton3 a, .grid1 .main-sale .grid-sale .boton4 a, .main-sale .grid1 .grid-sale .boton4 a {
+  .grid-sale .boton1 a, .main-sale .grid-sale .boton1 a, .main-sale .grid-sale .boton2 a, .main-sale .grid-sale .boton3 a, .main-sale .grid-sale .boton4 a {
     font-size: 2rem;
   }
-  .grid1 .grid-sale .boton2 {
+  .grid-sale .boton2 {
     gap: 0.75rem;
     padding: 1.5rem;
     text-align: center;
     border-radius: 0.5rem;
   }
-  .grid1 .grid-sale .boton2 a {
+  .grid-sale .boton2 a {
     font-size: 2rem;
   }
-  .grid1 .grid-sale .boton3 {
+  .grid-sale .boton3 {
     gap: 0.75rem;
     padding: 1.5rem;
     text-align: center;
     border-radius: 0.5rem;
   }
-  .grid1 .grid-sale .boton3 a {
+  .grid-sale .boton3 a {
     font-size: 2rem;
   }
-  .grid1 .grid-sale .boton4 {
+  .grid-sale .boton4 {
     gap: 0.75rem;
     padding: 1.5rem;
     text-align: center;
     border-radius: 0.5rem;
   }
-  .grid1 .grid-sale .boton4 a {
+  .grid-sale .boton4 a {
     font-size: 2rem;
-  }
-  .grid .formulario {
-    width: 47rem;
-  }
-  .grid h2 {
-    font-size: 2rem;
-  }
-  .grid .otrasvias li a {
-    font-size: 1rem;
-  }
-  .grid .otrasvias li img {
-    justify-content: center;
-    align-content: center;
-    width: 3.5rem;
-    height: 3.5rem;
-  }
-  footer {
-    width: 100%;
-    height: 25rem;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    padding-bottom: 4rem;
-  }
-  footer .direccion {
-    justify-content: center;
-    align-items: flex-start;
-    padding-bottom: 1rem;
-  }
-  footer .direccion p {
-    font-size: 0.75rem;
-    justify-self: flex-end;
-    align-self: self-start;
-  }
-  footer .tarjetas {
-    display: none;
-  }
-  footer .redes ul {
-    flex-direction: column;
-    align-items: flex-end;
-    align-items: start;
-  }
-  footer .redes ul li {
-    align-items: flex-start;
-    font-size: 0.8rem;
-  }
-  footer .redes ul li img {
-    width: 1.5rem;
-    height: fit-content;
-    justify-content: center;
-    align-content: center;
   }
 }
+.grid .formulario {
+  width: 47rem;
+}
+.grid h2 {
+  font-size: 2rem;
+}
+.grid .otrasvias li a {
+  font-size: 1rem;
+}
+.grid .otrasvias li img {
+  justify-content: center;
+  align-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+footer {
+  width: 100%;
+  height: 20rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+footer .direccion {
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 1rem;
+}
+footer .direccion p {
+  font-size: 0.75rem;
+  justify-self: flex-end;
+  align-self: self-start;
+}
+footer .tarjetas {
+  display: none;
+}
+footer .redes ul {
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: start;
+}
+footer .redes ul li {
+  align-items: flex-start;
+  font-size: 0.8rem;
+}
+footer .redes ul li img {
+  width: 1.5rem;
+  height: fit-content;
+  justify-content: center;
+  align-content: center;
+}
+
 @media (max-width: 480px) {
   header .navbar {
     display: flex;
@@ -833,7 +851,7 @@ main .catalogo h2 {
   }
   footer {
     width: 100%;
-    height: 25rem;
+    height: 20rem;
     justify-content: center;
     align-items: center;
   }
@@ -845,24 +863,29 @@ main .catalogo h2 {
   }
   .grid1 {
     width: 100%;
-    height: 90rem;
+    height: 85rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     background-size: cover;
   }
   .grid1 .sectionQuienesPrincipal {
-    height: 70rem;
+    width: 100%;
+    height: 60rem;
     background-size: contain;
   }
   .grid1 .sectionQuienesPrincipal p {
     font-size: 0.5rem;
   }
   .grid1 .sectionQuienesSecundaria {
-    height: 30rem;
+    width: 100%;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+  }
+  .grid1 .sectionQuienesSecundaria p {
+    font-size: 1.5rem;
   }
   .grid1 .sectionQuienesSecundaria .ubicacion {
     display: flex;
@@ -871,6 +894,7 @@ main .catalogo h2 {
   .grid1 .sectionQuienesSecundaria .ubicacion p {
     justify-items: center;
     align-items: flex-start;
+    font-size: 1.5rem;
   }
   .grid1 .sectionQuienesSecundaria .logo {
     display: none;
@@ -931,8 +955,8 @@ main .catalogo h2 {
   header .navbar {
     display: flex;
     width: 100%;
-    height: 12rem;
-    align-items: self-start;
+    height: 9rem;
+    align-items: self-end;
   }
   header .navbar .items {
     justify-content: flex-start;
@@ -984,46 +1008,41 @@ main .catalogo h2 {
     height: 25rem;
   }
   .sectionIndexSecundaria .video {
-    width: 18rem;
-    height: 20rem;
+    width: 20rem;
+    height: 16rem;
   }
   .sectionIndexSecundaria .video .video2 {
     width: 100%;
     height: 16rem;
   }
   .grid1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
     width: 100%;
-    height: 80rem;
+    height: 70rem;
     background-position: 50%;
     padding-top: 0;
   }
-  .sectionQuienesPrinicpal {
-    display: flex;
+  .grid1 .sectionQuienesPrinicpal {
     width: 100%;
-    height: 50rem;
+    height: 40rem;
   }
-  .sectionQuienesPrinicpal p {
-    font-size: 1rem;
+  .grid1 .sectionQuienesPrinicpal p {
+    font-size: 1.5rem;
   }
-  .sectionQuienesSecundaria {
-    display: felx;
+  .grid1 .sectionQuienesSecundaria {
     width: 100%;
     height: 30rem;
     background-position: 50%;
   }
-  .sectionQuienesSecundaria .mapa {
-    width: 15rem;
-    height: 18rem;
-  }
-  .sectionQuienesSecundaria .mapa iframe {
+  .grid1 .sectionQuienesSecundaria .mapa {
     width: 14rem;
     height: 16rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .grid1 .sectionQuienesSecundaria .mapa iframe {
+    width: 12rem;
+    height: 14rem;
     overflow: hidden;
   }
   .tienda {
@@ -1068,17 +1087,21 @@ main .catalogo h2 {
     font-size: 2rem;
   }
   .grid {
-    width: 20rem;
+    width: 100%;
   }
   .grid h1 {
     font-size: 2.8rem;
   }
   .grid .formulario {
     display: flex;
-    width: 19.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .grid .formulario form {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .grid .formulario form fieldset {
     display: flex;

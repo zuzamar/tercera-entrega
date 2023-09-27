@@ -36,7 +36,11 @@
         }
     }
     .grid1{
+        width: 100%;
+        height: 80rem;
         .sectionQuienesPrinicpal {
+            width:100%;
+            height: 40rem;
                     p{ 
                     padding-top: 1rem;
                     margin-left: 0.75rem;
@@ -45,6 +49,9 @@
                     font-weight: 25rem;
                 }
             }
+        .sectionQuienesSecundaria{
+            width:100%;
+            height: 40rem; 
         .ubicacion{
             p{
                 font-size: 1rem;
@@ -67,6 +74,8 @@
                 overflow: hidden;
             }
         }
+    }
+}
         .grid-sale{
             .sale{
                 font-size: 3rem;
@@ -134,12 +143,14 @@
         }
     footer{
         width: 100%;
-        height: 25rem;
+        height: 20rem;
         flex-direction: column;
         justify-content: space-around;
         align-content: center;
         align-items: center;
-        padding-bottom: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
         .direccion{
             
             justify-content: center;
@@ -174,5 +185,5 @@
             }
         }
         
-    }
+
 
