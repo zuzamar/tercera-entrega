@@ -24,7 +24,6 @@ header nav {
   justify-items: auto;
   width: 100%;
   height: 7rem;
-  margin: 8px 6px 8px 6px;
 }
 header nav ul {
   display: flex;
@@ -49,7 +48,7 @@ header nav ul li a:hover {
 header img {
   justify-self: flex-end;
   align-self: flex-end;
-  padding-right: 2rem;
+  padding-right: 1rem;
   padding-left: 1rem;
 }
 header .buscador {
@@ -112,6 +111,9 @@ footer .redes ul li a {
   font-size: 1.25rem;
   text-decoration: none;
   color: #c51605;
+}
+footer .redes ul li img {
+  width: 100%;
 }
 
 main .sectionIndexPrincipal {
@@ -178,7 +180,7 @@ main .sectionIndexSecundaria {
 main .sectionIndexSecundaria .video {
   justify-content: center;
   background-color: rgb(177, 167, 55);
-  width: 20rem;
+  width: 100%;
   height: 22rem;
   box-sizing: border-box;
   border-width: 10px;
@@ -202,8 +204,8 @@ main .sectionIndexSecundaria .video .video2 {
   height: 100rem;
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(4, 25%);
-  grid-template-areas: "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "ubicacion logo mapa mapa" "ubicacion logo mapa mapa";
+  grid-template-rows: repeat(2, 50%);
+  grid-template-areas: "sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal sectionQuienesPrinicpal" "sectionQuienesSecundaria sectionQuienesSecundaria sectionQuienesSecundaria sectionQuienesSecundaria";
   justify-content: space-around;
   background-color: #ffe17b;
 }
@@ -260,11 +262,11 @@ main .sectionIndexSecundaria .video .video2 {
   width: 100%;
   height: 50rem;
   display: grid;
+  grid-area: sectionQuienesSecundaria;
 }
 .grid1 .ubicacion {
   display: grid;
-  grid-area: ubicacion;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .grid1 .ubicacion p {
@@ -277,19 +279,19 @@ main .sectionIndexSecundaria .video .video2 {
 }
 .grid1 .logo {
   display: grid;
-  grid-area: logo;
 }
 .grid1 .logo img {
   display: grid;
-  justify-self: flex-end;
-  align-self: self-start;
+  justify-self: flex-start;
+  align-self: self-end;
   width: 8rem;
   height: 8rem;
   border-radius: 1rem;
 }
 .grid1 .mapa {
   display: grid;
-  grid-area: mapa;
+  justify-self: flex-end;
+  align-self: self-start;
   width: 25rem;
   height: 22rem;
   background-color: rgba(207, 167, 33, 0.6431372549);
