@@ -37,7 +37,39 @@
             }
         }
     }
-    .sectionIndexPrincipal{
+    footer{
+        width:100%;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        .direccion{
+            width: 6.25rem;
+            padding-right: 0px;
+            padding-left: 4px;
+            margin-right: 0px;
+            margin-left:0px;
+            p{
+            font-size: 0.5rem;
+        }           
+    }
+}
+    main{
+        width:100%;
+        .sectionIndexSecundaria{
+            width:100%;
+        .video{
+            width: 22rem;
+            height: 16rem;
+            .video2{
+                width: 100%;
+                height: 16rem;
+                }
+            }
+        }
+    }
+    main{
+        .sectionIndexPrincipal{
         width: 20rem;
         height: 31.25rem;
         @include flex (flex, column, none, center, center, 6rem);
@@ -59,6 +91,7 @@
                 height: 16rem;
             }
         }
+    }
     }
     .grid1{
         width:100%;
@@ -130,9 +163,9 @@
             font-size: 1.5rem;
             &:hover{
                 font-size: 2rem;
-            }
-        }
-    }
+                        }
+                    }
+                }
             }
         }
     }

@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-position: 40%;
     background-size: cover;
-    
         .sale{
             grid-area: sale;
             grid-column-start: 2;
@@ -26,7 +25,6 @@
             padding: 2rem 2rem;
         }
         .tracking-out-contract{-webkit-animation:tracking-out-contract .7s cubic-bezier(.55,.085,.68,.53) infinite alternate-reverse both;animation:tracking-out-contract .7s cubic-bezier(.55,.085,.68,.53) infinite alternate-reverse both}
-
 
 @-webkit-keyframes tracking-out-contract{0%{opacity:1}50%{opacity:1}100%{letter-spacing:-.5em;opacity:0}}@keyframes tracking-out-contract{0%{opacity:1}50%{opacity:1}100%{letter-spacing:-.5em;opacity:0}}
 

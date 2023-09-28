@@ -6,8 +6,6 @@
     @include grid (grid, repeat( 4, 25%), repeat(4, 1fr), "h1 h1 h1 h1" "formulario formulario formulario formulario" "h2 h2 h2 h2" "otrasvias otrasvias otrasvias otrasvias");
     justify-content: center;
     align-items: center;
-
-
     h1{
         grid-area: h1;
         justify-self: center;
