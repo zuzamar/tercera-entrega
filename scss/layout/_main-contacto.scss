@@ -16,11 +16,15 @@
         padding: 2rem 2rem;
     }
     .formulario{
+        width: 100%;
+        display:grid;
         grid-area: formulario;
         justify-self:baseline;
         form{
+            display:grid;
             background-color: rgb(240, 240, 160);
             fieldset{
+                
                 text-decoration: none;
                 legend{
                     color: rgb(80, 74, 6);
@@ -52,7 +56,8 @@
         display: flex;
         justify-self: flex-start;
         align-self: center;
-        padding-left: .5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         gap: 1rem;
         li{
             list-style: none;

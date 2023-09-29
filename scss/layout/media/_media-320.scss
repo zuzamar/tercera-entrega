@@ -3,13 +3,12 @@
         .navbar{
             display: flex;
             width: 100%;
-            height: 11rem;
-            align-items: self-end;
+            height: 8rem;
+            justify-content: flex-end;
+            align-items: flex-start;
             padding-bottom: 1rem;
                 .items{
                 justify-content: flex-start;
-                align-content: flex-start;
-                justify-items:flex-start;
                 align-items:flex-end;
                 padding-left: 0.25rem;
                 padding-right: 1rem;
@@ -34,6 +33,8 @@
                 height:auto;
                 width: auto;
                 padding-right: 1rem;
+                justify-content: flex-end;
+                align-items: flex-start;
             }
         }
     }

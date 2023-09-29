@@ -10,6 +10,8 @@
 }
 
 header {
+  width: 100%;
+  height: 8rem;
   display: flex;
   background-image: linear-gradient(to bottom, #676714, #807f25, #999937, #b3b348, #cece5a);
 }
@@ -23,7 +25,7 @@ header nav {
   align-content: center;
   justify-items: auto;
   width: 100%;
-  height: 7rem;
+  height: 8rem;
 }
 header nav ul {
   display: flex;
@@ -384,10 +386,13 @@ main .sectionIndexSecundaria .video .video2 {
   padding: 2rem 2rem;
 }
 .grid .formulario {
+  width: 100%;
+  display: grid;
   grid-area: formulario;
   justify-self: baseline;
 }
 .grid .formulario form {
+  display: grid;
   background-color: rgb(240, 240, 160);
 }
 .grid .formulario form fieldset {
@@ -421,6 +426,7 @@ main .sectionIndexSecundaria .video .video2 {
   justify-self: flex-start;
   align-self: center;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
   gap: 1rem;
 }
 .grid .otrasvias li {
@@ -832,9 +838,9 @@ main .catalogo h2 {
   header .navbar {
     display: flex;
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     padding-right: 4rem;
   }
   header .navbar .items {
@@ -856,10 +862,11 @@ main .catalogo h2 {
     padding-right: 0px;
   }
   header .navbar img {
+    display: flex;
     width: 8rem;
     height: 7rem;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: start;
+    align-items: center;
     padding-left: 2rem;
   }
   header .navbar .mi-cuenta {
@@ -999,14 +1006,13 @@ main .catalogo h2 {
   header .navbar {
     display: flex;
     width: 100%;
-    height: 11rem;
-    align-items: self-end;
+    height: 8rem;
+    justify-content: flex-end;
+    align-items: flex-start;
     padding-bottom: 1rem;
   }
   header .navbar .items {
     justify-content: flex-start;
-    align-content: flex-start;
-    justify-items: flex-start;
     align-items: flex-end;
     padding-left: 0.25rem;
     padding-right: 1rem;
@@ -1031,6 +1037,8 @@ main .catalogo h2 {
     height: auto;
     width: auto;
     padding-right: 1rem;
+    justify-content: flex-end;
+    align-items: flex-start;
   }
   footer {
     width: 100%;

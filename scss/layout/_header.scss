@@ -1,4 +1,6 @@
 header{
+    width:100%;
+    height: 8rem;
     display: flex;
     background-image: linear-gradient(to bottom, #676714, #807f25, #999937, #b3b348, #cece5a);
     nav{
@@ -6,7 +8,7 @@ header{
         align-content: center;
         justify-items: auto;
         width: 100%;
-        height: 7rem;
+        height: 8rem;
         ul{
             display: flex;
             justify-items: flex-start;
